@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mega menu</title>
+    <!-- ======================================= fontawesome cdn ======================================= -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- ======================================= css file ======================================= -->
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header_tag container">
+      <div class="header_inner d-flex align-items-center justify-content-between py-3">
+        <nav class="navigation_bar d-flex align-items-center gap-5">
+          <div class="logo_box">
+            <h1 class="logo_title text-capitalize fw-semibold">dev</h1>
+          </div>
+          <ul class="navigation_ul d-flex align-items-center justify-content-center gap-3">
+            <li class="navigation_li list-group-numbered">
+              <a href="#" class="navigation_link text-black text-decoration-none text-capitalize">home</a>
+            </li>
+            <li class="navigation_li categories_bar_parent_li list-group-numbered d-flex align-items-center gap-1">
+              <a href="#" class="navigation_link text-black text-decoration-none text-capitalize">categories <i class="fa-solid fa-chevron-down dropdown_icon"></i></a>
+              <div class="categories_bar d-flex align-items-center justify-content-center gap-3">
+                <div class="categories_box">
+                  <button class="category_btn text-capitalize p-2" data-product_category_btn="men_products_btn">men</button>
+                </div>
+                <div id="men_products_btn" class="men_category_mega_menu_container products_category_mega_menu_container">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <div class="product_category_banner_div men_products_banner_div"></div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="men_products_inner_box d-flex flex-column gap-3">
+                        <h6 class="men_category_products_title text-capitalize fw-semibold">shoes</h6>
+                        <div class="mega_menu_products_box shoes_category_mega_menu_box">
+                          <ul class="mega_menu_products_ul">
+                            <li class="mega_menu_products_li list-group-numbered">
+                              <a href="#" class="mega_menu_products_link text-black text-capitalize text-decoration-none">basket ball</a>
+                            </li>
+                            <li class="mega_menu_products_li list-group-numbered">
+                              <a href="#" class="mega_menu_products_link text-black text-capitalize text-decoration-none">running</a>
+                            </li>
+                            <li class="mega_menu_products_li list-group-numbered">
+                              <a href="#" class="mega_menu_products_link text-black text-capitalize text-decoration-none">sandals & slides</a>
+                            </li>
+                            <li class="mega_menu_products_li list-group-numbered">
+                              <a href="#" class="mega_menu_products_link text-black text-capitalize text-decoration-none">sneakers</a>
+                            </li>
+                            <li class="mega_menu_products_li list-group-numbered">
+                              <a href="#" class="mega_menu_products_link text-black text-capitalize text-decoration-none">soccer</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="men_products_inner_box d-flex flex-column gap-3">
+                        <h6 class="men_category_products_title text-capitalize fw-semibold">clothing</h6>
+                        <div class="mega_menu_products_box clothing_category_mega_menu_box">
+                          <ul class="mega_menu_products_ul">
+                            <li class="mega_menu_products_li list-group-numbered">
+                              <a href="#" class="mega_menu_products_link text-black text-capitalize text-decoration-none">jacket & vests</a>
+                            </li>
+                            <li class="mega_menu_products_li list-group-numbered">
+                              <a href="#" class="mega_menu_products_link text-black text-capitalize text-decoration-none">pants & tights</a>
+                            </li>
+                            <li class="mega_menu_products_li list-group-numbered">
+                              <a href="#" class="mega_menu_products_link text-black text-capitalize text-decoration-none">shorts</a>
+                            </li>
+                            <li class="mega_menu_products_li list-group-numbered">
+                              <a href="#" class="mega_menu_products_link text-black text-capitalize text-decoration-none">hoodies & sweatshirts</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="men_products_inner_box d-flex flex-column gap-3">
+                        <h6 class="men_category_products_title text-capitalize fw-semibold">accessories</h6>
+                        <div class="mega_menu_products_box accessories_category_mega_menu_box">
+                          <ul class="mega_menu_products_ul">
+                            <li class="mega_menu_products_li list-group-numbered">
+                              <a href="#" class="mega_menu_products_link text-black text-capitalize text-decoration-none">bags & backpacks</a>
+                            </li>
+                            <li class="mega_menu_products_li list-group-numbered">
+                              <a href="#" class="mega_menu_products_link text-black text-capitalize text-decoration-none">hat & beanies</a>
+                            </li>
+                            <li class="mega_menu_products_li list-group-numbered">
+                              <a href="#" class="mega_menu_products_link text-black text-capitalize text-decoration-none">socks</a>
+                            </li>
+                            <li class="mega_menu_products_li list-group-numbered">
+                              <a href="#" class="mega_menu_products_link text-black text-capitalize text-decoration-none">underwear</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="categories_box">
+                  <button class="category_btn text-capitalize p-2" data-product_category_btn="women_products_btn">women</button>
+                </div>
+                <div id="women_products_btn" class="women_category_mega_menu_container products_category_mega_menu_container">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <div class="product_category_banner_div women_products_banner_div"></div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="women_products_inner_box d-flex flex-column gap-3">
+                        <h6 class="women_category_products_title text-capitalize fw-semibold">shoes</h6>
+                        <div class="mega_menu_products_box shoes_category_mega_menu_box">
+                          <ul class="mega_menu_products_ul">
+                            <li class="mega_menu_products_li list-group-numbered">
+                              <a href="#" class="mega_menu_products_link text-black text-capitalize text-decoration-none">running</a>
+                            </li>
+                            <li class="mega_menu_products_li list-group-numbered">
+                              <a href="#" class="mega_menu_products_link text-black text-capitalize text-decoration-none">sneakers</a>
+                            </li>
+                            <li class="mega_menu_products_li list-group-numbered">
+                              <a href="#" class="mega_menu_products_link text-black text-capitalize text-decoration-none">training & gym</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="women_products_inner_box d-flex flex-column gap-3">
+                        <h6 class="women_category_products_title text-capitalize fw-semibold">clothing</h6>
+                        <div class="mega_menu_products_box clothing_category_mega_menu_box">
+                          <ul class="mega_menu_products_ul">
+                            <li class="mega_menu_products_li list-group-numbered">
+                              <a href="#" class="mega_menu_products_link text-black text-capitalize text-decoration-none">dresses & skirts</a>
+                            </li>
+                            <li class="mega_menu_products_li list-group-numbered">
+                              <a href="#" class="mega_menu_products_link text-black text-capitalize text-decoration-none">pants</a>
+                            </li>
+                            <li class="mega_menu_products_li list-group-numbered">
+                              <a href="#" class="mega_menu_products_link text-black text-capitalize text-decoration-none">tights & leggings</a>
+                            </li>
+                            <li class="mega_menu_products_li list-group-numbered">
+                              <a href="#" class="mega_menu_products_link text-black text-capitalize text-decoration-none">tops & t-shirts</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="women_products_inner_box d-flex flex-column gap-3">
+                        <h6 class="women_category_products_title text-capitalize fw-semibold">accessories</h6>
+                        <div class="mega_menu_products_box accessories_category_mega_menu_box">
+                          <ul class="mega_menu_products_ul">
+                            <li class="mega_menu_products_li list-group-numbered">
+                              <a href="#" class="mega_menu_products_link text-black text-capitalize text-decoration-none">bags & backpacks</a>
+                            </li>
+                            <li class="mega_menu_products_li list-group-numbered">
+                              <a href="#" class="mega_menu_products_link text-black text-capitalize text-decoration-none">hats</a>
+                            </li>
+                            <li class="mega_menu_products_li list-group-numbered">
+                              <a href="#" class="mega_menu_products_link text-black text-capitalize text-decoration-none">socks</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="categories_box">
+                  <button class="category_btn text-capitalize p-2" data-product_category_btn="kids_products_btn">kids</button>
+                </div>
+                <div id="kids_products_btn" class="kids_category_mega_menu_container products_category_mega_menu_container">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <div class="product_category_banner_div kids_products_banner_div"></div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="kids_products_inner_box d-flex flex-column gap-3">
+                        <h6 class="kids_category_products_title text-capitalize fw-semibold">clothing</h6>
+                        <div class="mega_menu_products_box clothing_category_mega_menu_box">
+                          <ul class="mega_menu_products_ul">
+                            <li class="mega_menu_products_li list-group-numbered">
+                              <a href="#" class="mega_menu_products_link text-black text-capitalize text-decoration-none">hoodies & sweatshirts</a>
+                            </li>
+                            <li class="mega_menu_products_li list-group-numbered">
+                              <a href="#" class="mega_menu_products_link text-black text-capitalize text-decoration-none">shorts</a>
+                            </li>
+                            <li class="mega_menu_products_li list-group-numbered">
+                              <a href="#" class="mega_menu_products_link text-black text-capitalize text-decoration-none">jackets</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="men_products_inner_box d-flex flex-column gap-3">
+                        <h6 class="men_category_products_title text-capitalize fw-semibold">shoes</h6>
+                        <div class="mega_menu_products_box shoes_category_mega_menu_box">
+                          <ul class="mega_menu_products_ul">
+                            <li class="mega_menu_products_li list-group-numbered">
+                              <a href="#" class="mega_menu_products_link text-black text-capitalize text-decoration-none">basket ball</a>
+                            </li>
+                            <li class="mega_menu_products_li list-group-numbered">
+                              <a href="#" class="mega_menu_products_link text-black text-capitalize text-decoration-none">running</a>
+                            </li>
+                            <li class="mega_menu_products_li list-group-numbered">
+                              <a href="#" class="mega_menu_products_link text-black text-capitalize text-decoration-none">sneakers</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="men_products_inner_box d-flex flex-column gap-3">
+                        <h6 class="men_category_products_title text-capitalize fw-semibold">accessories</h6>
+                        <div class="mega_menu_products_box accessories_category_mega_menu_box">
+                          <ul class="mega_menu_products_ul">
+                            <li class="mega_menu_products_li list-group-numbered">
+                              <a href="#" class="mega_menu_products_link text-black text-capitalize text-decoration-none">bags & backpacks</a>
+                            </li>
+                            <li class="mega_menu_products_li list-group-numbered">
+                              <a href="#" class="mega_menu_products_link text-black text-capitalize text-decoration-none">hat</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="navigation_li list-group-numbered">
+              <a href="#" class="navigation_link text-black text-decoration-none text-capitalize">shop</a>
+            </li>
+          </ul>
+        </nav>
+        <form action="#" method="post" class="search_products_form">
+          <div class="searchbar_div">
+            <i class="fa-solid fa-magnifying-glass search_icon"></i>
+            <input type="search" name="search_products" placeholder="Search" class="searchbar_inputfield">
+          </div>
+        </form>
+        <div class="side_icons_box d-flex align-items-center gap-3">
+          <div class="icon_box">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <div class="icon_box">
+            <i class="fa-solid fa-user"></i>
+          </div>
+          <div class="icon_box shopping_cart_icon_box">
+            <i class="fa-solid fa-shopping-bag"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ======================================= js file ======================================= -->
+    <script src="main.js"></script>
+    <script src="bootstrap.js"></script>
+  </body>
+</html>
