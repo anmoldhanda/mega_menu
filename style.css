@@ -79,6 +79,8 @@ h6 {
   box-shadow: var(--shadow-effect);
   opacity: 0;
   visibility: hidden;
+  border-radius: 5px;
+  border-bottom: 1px solid #e5e7eb;
   transition: opacity 300ms ease, visibility 300ms ease;
 }
 
@@ -95,6 +97,7 @@ h6 {
 
 .active_category_btn {
   color: var(--pink-color);
+  position: relative;
 }
 
 .active_category_btn::after {
@@ -103,6 +106,10 @@ h6 {
   background: var(--pink-color);
   width: 100%;
   height: 2px;
+  position: absolute;
+  top: 2.5rem;
+  z-index: 1;
+  right: 0;
 }
 
 .products_category_mega_menu_container {
@@ -112,6 +119,7 @@ h6 {
   background: var(--white-color);
   box-shadow: var(--shadow-effect);
   border-radius: 10px;
+  padding: 1rem 0;
 }
 
 .women_products_banner_div {
