@@ -12,17 +12,21 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- ====================== google fonts ====================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&amp;display=swap"
+      rel="stylesheet"
+    />
     <!-- ======================================= css file ======================================= -->
     <link rel="stylesheet" href="bootstrap.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="header_tag container">
-      <div class="header_inner d-flex align-items-center justify-content-between py-3">
+    <header class="header_tag">
+      <div class="header_inner d-flex align-items-center justify-content-center py-3">
         <nav class="navigation_bar d-flex align-items-center gap-5">
-          <div class="logo_box">
-            <h1 class="logo_title text-capitalize fw-semibold">dev</h1>
-          </div>
           <ul class="navigation_ul d-flex align-items-center justify-content-center gap-3">
             <li class="navigation_li list-group-numbered">
               <a href="#" class="navigation_link text-black text-decoration-none text-capitalize">home</a>
@@ -244,25 +248,12 @@
             </li>
           </ul>
         </nav>
-        <form action="#" method="post" class="search_products_form">
-          <div class="searchbar_div">
-            <i class="fa-solid fa-magnifying-glass search_icon"></i>
-            <input type="search" name="search_products" placeholder="Search" class="searchbar_inputfield">
-          </div>
-        </form>
-        <div class="side_icons_box d-flex align-items-center gap-3">
-          <div class="icon_box">
-            <i class="fa-solid fa-heart"></i>
-          </div>
-          <div class="icon_box">
-            <i class="fa-solid fa-user"></i>
-          </div>
-          <div class="icon_box shopping_cart_icon_box">
-            <i class="fa-solid fa-shopping-bag"></i>
-          </div>
-        </div>
       </div>
     </header>
+    <div class="projectdetails-container d-flex flex-column align-items-center justify-content-center text-capitalize position-absolute">
+      <h1 class="headline">mega menu</h1>
+      <!-- <p class="description">your description here</p> -->
+  </div>
     <!-- ======================================= js file ======================================= -->
     <script src="main.js"></script>
     <script src="bootstrap.js"></script>
